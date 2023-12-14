@@ -1,0 +1,62 @@
+body {
+  background-image: url(love.png);
+  background-position: 2% 55%;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#heartButton {
+    position: absolute;
+    top: 10px; 
+    right: 30px; 
+    padding: 15px 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: grab;
+    outline: none;
+    color: #000000;
+    background-color: #ff889c;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 5px #aa6481;
+    transition: 0.3s;
+    font-style: unset;
+}
+#heartButton:hover {background-color: #ff506d;
+  color:black
+}
+
+#heartButton:active {
+  background-color: #ff879b;
+  box-shadow: 0 5px rgb(104, 67, 67)481;
+  transform: translateY(6px);
+}
+
+h1 {
+  text-align: center;
+margin-left: 10cm;
+height: 1cm;
+width: 13cm;
+background-color: rgb(245, 50, 109);
+border-radius: 33px;
+ }
+ 
+ h5{
+  position: absolute;
+  left: 14px;
+  margin-top: 1px;
+
+ } 
+ h4{
+  position: absolute;
+margin-left: 8cm;
+margin-top: 0cm;
+ }
+ 
+h2 {
+  margin-left: 1cm;
+}
+
+
